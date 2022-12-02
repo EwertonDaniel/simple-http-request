@@ -1,0 +1,30 @@
+{
+  "name": "echosistema/simple-http-request",
+  "version": "1.0.1",
+  "description": "A small PHP library to make simplified requests",
+  "keywords": [
+    "SHR",
+    "Request"
+  ],
+  "require": {
+    "php": ">=8.1",
+    "guzzlehttp/guzzle": "^7.0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.7"
+  },
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Echosistema\\SHR\\": "SHR/src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ewerton Daniel",
+      "email": "ewertondaniel@icloud.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
