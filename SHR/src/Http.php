@@ -88,7 +88,7 @@ class Http extends Request
     /**
      * @param array $array |null $array
      * @return $this
-     * @example auto converts array to json
+     * Auto converts array to json
      */
     public function withJson(array $array = array()): static
     {
