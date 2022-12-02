@@ -55,7 +55,7 @@ class Http extends Request
 
     public function withBearerToken($token): static
     {
-        $this->addHeader('Authorization', 'Bearer ' . $token);
+        $this->addHeader('Authorization', "Bearer $token");
         return $this;
     }
 

@@ -1,6 +1,6 @@
 {
   "name": "echosistema/simple-http-request",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small PHP library to make simplified requests",
   "keywords": [
     "SHR",
